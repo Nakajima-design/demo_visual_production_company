@@ -123,10 +123,11 @@ header .logo {
   padding: 0 30px;
 }
 #portfolio .portfolio_box {
-  width: 100%;
-  height: 680px;
+  width: 700px;
+  height: 100%;
   display: flex;
   justify-content: center;
+  margin: 0 auto;
 }
 #portfolio .portfolio_box .portrait {
   background: url("../img/photo2.jpg") no-repeat center center;
@@ -192,6 +193,7 @@ header .logo {
   background-color: #f3f3f3;
   padding-top: 100px;
   padding-bottom: 100px;
+  margin-bottom: 0px;
 }
 #news .headline {
   color: rgb(27, 27, 27);
@@ -225,5 +227,52 @@ header .logo {
   font-size: 16px;
   word-wrap: break-word;
   text-align: justify;
+}
+
+.slider {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+.slider .news_content img {
+  width: 900px;
+  margin: 0 auto;
+}
+.slider .news_content p {
+  color: #2f2f2f;
+  font-size: 12px;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+.slider .news_content h3 {
+  width: 900px;
+  color: rgb(27, 27, 27);
+  font-weight: 400;
+  font-size: 16px;
+  word-wrap: break-word;
+  text-align: justify;
+  padding: 20px;
+  margin: 0 auto;
+}
+.slider .news_content .btn {
+  color: #f3f3f3;
+  background-color: #2f2f2f;
+  border-radius: 20px;
+  font-size: 12px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+.slick-list {
+  padding-bottom: 15px;
+}
+
+.slick-dots {
+  margin-top: 50px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 20px;
 }
 /*# sourceMappingURL=style.css.map */
